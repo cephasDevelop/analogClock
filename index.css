@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 10, 63);
+}
+
+.clock-border{
+    height:300px;
+    width:300px;
+    border-radius: 150px;
+    border: solid 5px orange;
+}
+
+#hour{
+    height:100px;
+    width:5px;
+    background-color: red;
+}
+
+#minute {
+    height: 125px;
+    width: 2.5px;
+    background-color: yellow;
+}
+
+#second {
+    height: 140px;
+    width: 1px;
+    background-color: green;
+}
