@@ -11,22 +11,47 @@ body{
     width:300px;
     border-radius: 150px;
     border: solid 5px orange;
+    background-color: rgb(155, 159, 168);
+    position:absolute;
 }
 
 #hour{
+    position:absolute;
     height:100px;
     width:5px;
+    right:147.5px;
+    bottom: 150px;
     background-color: red;
+    transform-origin: 0% 100%;
 }
 
 #minute {
+    position: absolute;
     height: 125px;
     width: 2.5px;
-    background-color: yellow;
+    right:149px;
+    bottom: 150px;
+    background-color: green;
+    transform-origin: 0% 100%;
 }
 
 #second {
+    position: absolute;
     height: 140px;
     width: 1px;
-    background-color: green;
+    right:150px;
+    bottom:150px;
+    background-color: rgb(63, 65, 148);
+    transform-origin: 0% 100%;
+    /* opacity:50%; */
+}
+
+#center{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 140px;
+    bottom: 140px;
+    border-radius: 10px;
+    background-color: rgb(43, 39, 105);
 }
